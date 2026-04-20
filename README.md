@@ -2,6 +2,6 @@
 
 👤 Identitas
 
-Nama: Takwa 
+Nama: Takwa Ariguna
 
 NIM: 24.11.6118
