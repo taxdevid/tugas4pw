@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Challenge_24.11.6118</title>
+
+    <style>
+        input[type="checkbox"],
+        input[type="radio"] {
+            accent-color: purple;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Challenge_24.11.6118</h1>
+
+    <!-- Tabel Daftar Buku -->
+    <table border="1" cellpadding="3" cellspacing="0">
+            <tr>
+                <th colspan="4" bgcolor="orange">Daftar Buku</th>
+            </tr>
+        
+        <tr>
+            <td rowspan="3">
+                <img src="buku.png" alt="Book Image" width="169">
+            </td>
+            <td>Judul</td>
+            <td>:</td>
+            <td>Si Anak Tengah</td>
+        </tr>
+        <tr>
+            <td>Harga</td>
+            <td>:</td>
+            <td>Rp. 69.000,00</td>
+        </tr>
+        <tr>
+            <td>Pengarang</td>
+            <td>:</td>
+            <td>Ana Falesthein</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <h3>Isilah formulir dibawah ini</h3>
+    <!-- Form -->
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Nama:</td>
+                    <td><input type="text" placeholder="Nama Kamu"></td>
+                </tr>
+            </tbody>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin:</td>
+                <td>
+                    <input type="radio" name="jk" checked> Laki - Laki
+                    <input type="radio" name="jk"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi:</td>
+                <td>
+                    <input type="checkbox"> Membaca Buku
+                    <input type="checkbox" checked> Menulis
+                    <input type="checkbox"> Memancing
+                </td>
+            </tr>
+            <tr>
+                <td>Asal Kota:</td>
+                <td>
+                    <select>
+                        <option>Yogyakarta</option>
+                        <option>Jakarta</option>
+                        <option>Bandung</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Komentar Anda:</td>
+                <td>
+                    <textarea rows="4" cols="30" placeholder="Silahkan katakan isi hati anda"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Mulai Proses!">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
